@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour
 {
-    public GameObject ballPrefab; // arrastra tu prefab aquí en el inspector
-    public Transform shootPoint;  // el punto desde donde disparas
+    public GameObject ballPrefab;
+    public Transform shootPoint;
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // clic izquierdo o toque
+        if (Input.GetMouseButtonDown(0))
         {
             Shoot();
         }
